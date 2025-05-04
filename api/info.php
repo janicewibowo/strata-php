@@ -1,4 +1,7 @@
 <?php
+// Allow cross-origin requests from any origin
+header("Access-Control-Allow-Origin: *");
+
 echo "<!DOCTYPE html>";
 echo "<html lang='en'>";
 echo "<head>";
